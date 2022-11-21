@@ -1,0 +1,48 @@
+<resources>
+    <string name="app_name">Film Tool</string>
+    <string name="title_form1">Reel</string>
+    <string name="title_form2">Film</string>
+    <string name="title_form3">File</string>
+    <string name="title_flowchart">Flowchart</string>
+    <string name="core_diameter">CORE DIAMETER</string>
+    <string name="reel_diameter">REEL DIAMETER</string>
+    <string name="film_format">FILM FORMAT</string>
+    <string name="frame_rate">FRAME RATE</string>
+    <string name="reel_length">REEL LENGTH</string>
+    <string name="resolution">RESOLUTION</string>
+    <string name="file_format">FILE FORMAT</string>
+    <string name="file_size">FILE SIZE</string>
+    <string name="runtime">RUN TIME</string>
+    <string name="gb">GB</string>
+    <string name="mm">mm</string>
+    <string name="inches">inches</string>
+    <string name="ft">ft</string>
+    <string name="metres">metres</string>
+    <string name="imperial">Imperial</string>
+    <string name="metric">Metric</string>
+    <string name="h">h</string>
+    <string name="m">m</string>
+    <string name="s">s</string>
+    <string name="fps">fps</string>
+    <string name="help">Help</string>
+    <string name="settings">Settings</string>
+    <string name="zero">0</string>
+    <string name="nulight">Nulight Studios Film Tool</string>
+    <string name="nightmode">Night Mode</string>
+    <string name="title_activity_settings">Settings</string>
+
+    <!-- Preference Titles -->
+    <string name="messages_header">Messages</string>
+    <string name="sync_header">Sync</string>
+
+    <!-- Messages Preferences -->
+    <string name="signature_title">Your signature</string>
+    <string name="reply_title">Default reply action</string>
+
+    <!-- Sync Preferences -->
+    <string name="sync_title">Sync email periodically</string>
+    <string name="attachment_title">Download incoming attachments</string>
+    <string name="attachment_summary_on">Automatically download attachments for incoming emails
+    </string>
+    <string name="attachment_summary_off">Only download attachments when manually requested</string>
+</resources>

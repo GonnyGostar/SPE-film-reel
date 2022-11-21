@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<file_formats>
+    <format>
+        <id>0</id>
+        <name>h.264 10Mbs</name>
+        <bpp>0.02263</bpp>
+    </format>
+
+    <format>
+        <id>1</id>
+        <name>Avid DNxHR HQ (HD/2K)</name>
+        <bpp>0.493543</bpp>
+    </format>
+
+    <format>
+        <id>2</id>
+        <name>Avid DNxHR HQx (HD/4K)</name>
+        <bpp>0.493543</bpp>
+    </format>
+
+    <format>
+        <id>3</id>
+        <name>ProRes Proxy</name>
+        <bpp>0.101405</bpp>
+    </format>
+
+    <format>
+        <id>4</id>
+        <name>ProRes LT</name>
+        <bpp>0.228702</bpp>
+    </format>
+
+    <format>
+        <id>5</id>
+        <name>ProRes 422</name>
+        <bpp>0.330107</bpp>
+    </format>
+
+    <format>
+        <id>6</id>
+        <name>ProRes 422 HQ</name>
+        <bpp>0.49624</bpp>
+    </format>
+
+    <format>
+        <id>7</id>
+        <name>ProRes 4444</name>
+        <bpp>0.57607</bpp>
+    </format>
+
+    <format>
+        <id>8</id>
+        <name>ProRes 4444 HQ</name>
+        <bpp>1.111145</bpp>
+    </format>
+
+    <format>
+        <id>9</id>
+        <name>10bit DPX</name>
+        <bpp>4.293552</bpp>
+    </format>
+
+    <format>
+        <id>10</id>
+        <name>12bit DPX</name>
+        <bpp>5.024966</bpp>
+    </format>
+
+    <format>
+        <id>11</id>
+        <name>16bit DPX</name>
+        <bpp>6.710023</bpp>
+    </format>
+
+    <format>
+        <id>12</id>
+        <name>16bit EXR</name>
+        <bpp>6.446801</bpp>
+    </format>
+
+    <format>
+        <id>13</id>
+        <name>32bit EXR</name>
+        <bpp>12.88713</bpp>
+    </format>
+
+</file_formats>

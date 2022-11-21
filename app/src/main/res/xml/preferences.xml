@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <SwitchPreferenceCompat
+        app:key="@string/nightmode"
+        app:defaultValue="true"
+        app:title="Night mode" />
+
+    <Preference
+        app:key="icon"
+        app:title="Sync "
+        app:summary="Make sure flowchart is up to date"
+        app:icon="@android:drawable/ic_popup_sync"/>
+
+
+</PreferenceScreen>

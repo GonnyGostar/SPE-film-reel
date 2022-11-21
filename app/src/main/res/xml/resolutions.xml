@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resolutions>
+    <resolution>
+        <id>0</id>
+        <name>NTSC (720x486)</name>
+        <ppf>349920</ppf>
+    </resolution>
+
+    <resolution>
+        <id>1</id>
+        <name>PAL (720x576)</name>
+        <ppf>414720</ppf>
+    </resolution>
+
+    <resolution>
+        <id>2</id>
+        <name>HD 4:3 (960x720)</name>
+        <ppf>691200</ppf>
+    </resolution>
+
+    <resolution>
+        <id>3</id>
+        <name>HD 16:9 (1280x720)</name>
+        <ppf>921600</ppf>
+    </resolution>
+
+    <resolution>
+        <id>4</id>
+        <name>FHD 4:3 frame (1440x1080)</name>
+        <ppf>1555200</ppf>
+    </resolution>
+
+    <resolution>
+        <id>5</id>
+        <name>FHD 16:9 frame (1920x1080)</name>
+        <ppf>2073600</ppf>
+    </resolution>
+
+    <resolution>
+        <id>6</id>
+        <name>2K DCP (2048X1080)</name>
+        <ppf>2211840</ppf>
+    </resolution>
+
+    <resolution>
+        <id>7</id>
+        <name>2K 19:9 (2048X1152)</name>
+        <ppf>2359296</ppf>
+    </resolution>
+
+    <resolution>
+        <id>8</id>
+        <name>2K Super 16 (2048X1240)</name>
+        <ppf>2539520</ppf>
+    </resolution>
+
+    <resolution>
+        <id>9</id>
+        <name>2K 4:3 (2048X1536)</name>
+        <ppf>3145728</ppf>
+    </resolution>
+
+    <resolution>
+        <id>10</id>
+        <name>2K full aperture (2048x1556)</name>
+        <ppf>3186688</ppf>
+    </resolution>
+
+    <resolution>
+        <id>11</id>
+        <name>UDH 16:9 (3840x2160)</name>
+        <ppf>8294400</ppf>
+    </resolution>
+
+    <resolution>
+        <id>12</id>
+        <name>4K DCP (4096x2160)</name>
+        <ppf>8847360</ppf>
+    </resolution>
+
+    <resolution>
+        <id>13</id>
+        <name>4K 16:9 (4096x2304)</name>
+        <ppf>9437184</ppf>
+    </resolution>
+
+    <resolution>
+        <id>14</id>
+        <name>4K Super 16 (4096x2480)</name>
+        <ppf>10158080</ppf>
+    </resolution>
+
+    <resolution>
+        <id>15</id>
+        <name>4K 4:3 (4096x3072)</name>
+        <ppf>12582912</ppf>
+    </resolution>
+
+    <resolution>
+        <id>16</id>
+        <name>4K full aperture (4096x3112)</name>
+        <ppf>12746752</ppf>
+    </resolution>
+
+</resolutions>

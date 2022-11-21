@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<flowchart>
+    <node option="16mm Film" label="16mm Film" question="Is there picture on the film?" id="1" img="res/drawable/placeholder.png" info="placeholder.html">
+        <node option="Yes" label="16mm Film" question="Is the film perforated on both sides?" id="2" img="placeholder.png" info="placeholder.html">
+            <node option="Yes" label="16mm Film" question="Is there a single row of images?" id="3" img="placeholder.png" info="placeholder.html">
+                <node option="Yes" label="Double perf standard 16" question="Is the picture black and white?" id="4" img="placeholder.png" info="placeholder.html">
+                    <node option="Yes" label="Black and white film" question="Is the picture negative?" id="5" img="placeholder.png" info="placeholder.html">
+                        <node option="Yes" label="Black and white negative" question="Does image have line structure?" id="6" img="placeholder.png" info="placeholder.html">
+                            <node option="Yes" label="Tele-recording negative" id="7" img="placeholder.png" info="placeholder.html"> </node>
+                            <node option="No" label="Could be camera negative, duplicate negative or internegative" id="8" img="placeholder.png" info="placeholder.html"> </node> 
+                        </node>
+                        <node option="No" label="Black and white film" question="Does the film have clear edges?" id="9" img="placeholder.png" info="placeholder.html">
+                            <node option="Yes" label="Black and white positive" question="Does it have black footage numbers?" id="10" img="placeholder.png" info="placeholder.html">
+                                <node option="Yes" label="Duplicating Positive" id="11" img="placeholder.png" info="placeholder.html"> </node>
+                                <node option="No" label="Black and white positive" id="12" img="placeholder.png" info="placeholder.html"> </node>
+                            </node>    
+                            <node option="No" label="Black and white film" question="Does the film have black edges?" id="13" img="placeholder.png" info="placeholder.html">
+                                <node option="Yes" label="Black and white film" question="Does edge print read KODACOLOR?" id="14" img="placeholder.png" info="placeholder.html">
+                                    <node option="Yes" label="Lenticular film" id="15" img="placeholder.png" info="placeholder.html"> </node>
+                                    <node option="No" label="Black and white reversal" id="16" img="placeholder.png" info="placeholder.html"> </node>
+                                </node>    
+                                <node option="No" label="Tinted black and white or blue base TV positive" id="17" img="placeholder.png" info="placeholder.html"> 
+                                </node>
+                            </node>
+                        </node>
+                    </node>
+                    <node option="No" label="Colour film" question="Does the film have an orange colour?" id="18" img="placeholder.png" info="placeholder.html">
+                        <node option="Yes" label="Colour film" question="Is the picture negative?" id="19" img="placeholder.png" info="placeholder.html">
+                            <node option="Yes" label="Colour negative" question="Does the film have black edges?" id="20" img="placeholder.png" info="placeholder.html">
+                                <node option="Yes" label="Colour Reversal Intermediate (CRI)" id="21" img="placeholder.png" info="placeholder.html"> </node>
+                                <node option="No" label="Colour negative" question="Does the film contain joins?" id="22" img="placeholder.png" info="placeholder.html">
+                                    <node option="Yes" label="Original cut negative" question="Are alternate scenes joined to black leader?" id="23" img="placeholder.png" info="placeholder.html">
+                                        <node option="Yes" label="Colour negative A &amp; B rolls" id="24" img="placeholder.png" info="placeholder.html">
+                                        </node>
+                                        <node option="No" label="Original cut negative" id="25" img="placeholder.png" info="placeholder.html">
+                                        </node>
+                                    </node>
+                                    <node option="No" label="Colour negative" question="Do scene changes have flash frames?" id="26" img="placeholder.png" info="placeholder.html">
+                                        <node option="Yes" label="Original negative" id="27" img="placeholder.png" info="placeholder.html">
+                                        </node>
+                                        <node option="No" label="Duplicate negative or internegative" id="28" img="placeholder.png" info="placeholder.html">
+                                        <!--EXTEND?-->
+                                        </node>
+                                    </node>
+                                </node>
+                            </node>
+                            <node option="No" label="Colour Interpositive" id="29" img="placeholder.png" info="placeholder.html">
+                            </node>
+                        </node>
+                        <node option="No" label="Original negative" question="Does it have black edges?" id="30" img="placeholder.png" info="placeholder.html">
+                            <node option="Yes" label="Colour Reversal" question="Does the film have a soundtrack?" id="31" img="placeholder.png" info="placeholder.html">
+                                <node option="Yes" label="Combined colour reversal print" question="Can you see reseau pattern?" id="32" img="placeholder.png" info="placeholder.html">
+                                    <node option="Yes" label="Dufaycolor" id="33" img="placeholder.png" info="placeholder.html">
+                                    </node>
+                                    <node option="No" label="Colour reversal mute print or camera master" id="34" img="placeholder.png" info="placeholder.html">
+                                    </node>
+                                </node>
+                                <node option="No" label="Colour Reversal" question="Is there more than one reel for each film?" id="35" img="placeholder.png" info="placeholder.html">
+                                    <node option="Yes" label="A &amp; B roll masters" id="36" img="placeholder.png" info="placeholder.html">
+                                    </node>
+                                    <node option="No" label="Colour reversal master or silent print" question="Can you see reseau pattern?" id="37" img="placeholder.png" info="placeholder.html">
+                                        <node option="Yes" label="Dufaycolor" id="38" img="placeholder.png" info="placeholder.html">
+                                        </node>
+                                        <node option="No" label="Colour reversal mute print or camera master" id="39" img="placeholder.png" info="placeholder.html">
+                                        </node>
+                                    </node>
+                                </node>
+                            </node>
+                            <node option="No" label="Colour film" question="Is the picture negative?" id="40" img="placeholder.png" info="placeholder.html">
+                                <node option="Yes" label="Unmasked negative" id="41" img="placeholder.png" info="placeholder.html">
+                                </node>
+                                <node option="No" label="Colour positive" question="Is the soundtrack and the edge printing black and white?" id="42" img="placeholder.png" info="placeholder.html">
+                                    <node option="Yes" label="Technicolor" id="43" img="placeholder.png" info="placeholder.html">
+                                    </node>
+                                    <node option="No" label="Colour positive" question="Is the soundtrack blue?" id="44" img="placeholder.png" info="placeholder.html">
+                                        <node option="Yes" label="Eastman Color, Agfacolor, Gevacolor, Fujicolor, Ferrania or 3M" id="45" img="placeholder.png" info="placeholder.html">
+                                        </node>
+                                        <node option="No" label="Orwo or Sovcolor" id="46" img="placeholder.png" info="placeholder.html">
+                                        </node>
+                                    </node>
+                                </node>
+                            </node>
+                        </node>
+                    </node>
+                </node>
+                <node option="No" label="1:4 double 8mm" id="47" img="placeholder.png" info="placeholder.html">
+                </node>
+            <node option="No" label="16mm Film" question="Does film have single row of perforations on one side?" id="48" img="placeholder.png" info="placeholder.html">
+                <node option="Yes" label="16mm Film" question="Does the image extend to one edge of the film?" id="49" img="placeholder.png" info="placeholder.html">
+                    <node option="Yes" label="Super 16" question="Is the picture black and white?" id="50" img="placeholder.png" info="placeholder.html">
+                        <node option="Yes" label="Black and white film" question="Is the picture negative?" id="51" img="placeholder.png" info="placeholder.html">
+                            <node option="Yes" label="Black and white negative" id="52" img="placeholder.png" info="placeholder.html">
+                            </node>
+                            <node option="No" label="Black and white film" question="Does the film have clear edges?" id="53" img="placeholder.png" info="placeholder.html">
+                                <node option="Yes" label="Black and white positive" question="Does it have black footage numbers?" id="54" img="placeholder.png" info="placeholder.html">
+                                    <node option="Yes" label="Duplicating positive" id="55" img="placeholder.png" info="placeholder.html">
+                                    </node>
+                                    <node option="No" label="Black and white positive" id="56" img="placeholder.png" info="placeholder.html">
+                                    </node>
+                                </node>
+                                <node option="No" label="Black and white reversal" id="57" img="placeholder.png" info="placeholder.html">
+                                </node>
+                            </node>
+                        </node>
+                        <node option="No" label="Colour film" question ="Does the film have an orange colour?" id="58" img="placeholder.png" info="placeholder.html">
+                            <!-- SAME AS ID 19, REDIRECTING THERE-->
+                            <node option="Yes" goto-node="19">
+                            </node>
+                            <node option="No" label="Colour film" question ="Does it have black edges?" id="59" img="placeholder.png" info="placeholder.html">
+                                <node option="Yes" label="Colour Reversal" question ="Is there more than one reel for each film?" id="60" img="placeholder.png" info="placeholder.html">
+                                    <node option="Yes" label="A&amp;B roll masters" id="61" img="placeholder.png" info="placeholder.html">
+                                    </node>
+                                    <node option="No" label="Colour reversal master or silent print" id="62" img="placeholder.png" info="placeholder.html">
+                                    </node>
+                                </node>
+                                <node option="No" label="Colour positive" id="63" img="placeholder.png" info="placeholder.html">
+                                </node>
+                            </node>
+                        </node>
+                    </node>
+                    <!-- SAME AS ID 4, REDIRECTING THERE-->
+                    <node option="No" goto-node="4">
+                    </node>
+                </node>
+            </node>
+        </node>
+    </node>
+    </node>
+</flowchart>

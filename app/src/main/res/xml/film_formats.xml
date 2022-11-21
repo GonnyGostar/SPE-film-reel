@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<film-formats>
+    <format>
+        <id>0</id>
+        <name>8mm</name>
+        <fpf>79.95523</fpf>
+        <tof>5.5</tof>
+    </format>
+    <format>
+        <id>1</id>
+        <name>Super 8mm</name>
+        <fpf>72.07207</fpf>
+        <tof>5.5</tof>
+    </format>
+    <format>
+        <id>2</id>
+        <name>9.5mm</name>
+        <fpf>41.17768</fpf>
+        <tof>5.5</tof>
+    </format>
+    <format>
+        <id>3</id>
+        <name>16mm</name>
+        <fpf>40.0112</fpf>
+        <tof>5.5</tof>
+    </format>
+    <format>
+        <id>4</id>
+        <name>Super 16mm</name>
+        <fpf>40.0112</fpf>
+        <tof>5.5</tof>
+    </format>
+    <format>
+        <id>5</id>
+        <name>35mm 2-perf</name>
+        <fpf>32.01434</fpf>
+        <tof>5.5</tof>
+    </format>
+    <format>
+        <id>6</id>
+        <name>35mm 3-perf</name>
+        <fpf>21.34927</fpf>
+        <tof>5.5</tof>
+    </format>
+    <format>
+        <id>7</id>
+        <name>35mm 4-perf</name>
+        <fpf>16.00179</fpf>
+        <tof>5.5</tof>
+    </format>
+    <format>
+        <id>8</id>
+        <name>65mm 5-perf</name>
+        <fpf>12.80803</fpf>
+        <tof>5.5</tof>
+    </format>
+    <format>
+        <id>9</id>
+        <name>65mm 8-perf</name>
+        <fpf>8.002241</fpf>
+        <tof>5.5</tof>
+    </format>
+    <format>
+        <id>10</id>
+        <name>70mm 5-perf</name>
+        <fpf>12.80803</fpf>
+        <tof>5.5</tof>
+    </format>
+    <format>
+        <id>11</id>
+        <name>70mm 8-perf</name>
+        <fpf>8.002241</fpf>
+        <tof>5.5</tof>
+    </format>
+    <format>
+        <id>12</id>
+        <name>IMAX</name>
+        <fpf>4.267923</fpf>
+        <tof>5.5</tof>
+    </format>
+</film-formats>
